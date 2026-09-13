@@ -1,0 +1,45 @@
+Rerouting Paths to Avoid Flooding, a Function - Submission Summary
+Sofia Sarak
+
+**Project Summary**
+
+A Python function that reroutes to safer paths based on season and road surface.
+
+**Project Materials**
+
+Jupyter Notebook, all coding done in Python. Python environment specifications are included in requirements.txt. 
+Particularly important libraries include networkx and scipy.spatial. 
+
+Function should require relatively low processing power (other than what is required for very large data) and basic knowledge
+of Python functions.
+
+**Project Feasability**
+
+Honestly – I don't know much about real-time routing. However, I hope that taking variables as simple as month and location 
+(which can even be a pre-determined variable in a users system) when making routing decisions is not too technically complicated
+to integrate in future renditions of Challenge 3 products.
+
+**Potential for Impact**
+
+In some areas of the Amazon, road flooding is a big issue. Incorporating seasonality and road crossings into routing can help
+Amazon workers get from Point A to Point B more efficiently, and safer.
+
+**Development Level during Hackathon**
+
+In this hackathon, I only had the time and technical capability of incorporating one new data source, and therefore only routing
+based on river crossing. It was also focused exclusively on Paragominas. 
+
+The function developed most likely will not benefit Amazon workers on its own – it would have to be supplemented by accurate road
+systems and a more robust routing system. However, I hope the logic can be of use for future development of this tool.
+
+**Suggestions for the Future**
+
+Information like month of year and location are currently manual inputs in the final function. In the future, I would hope
+that the function is integrated into a system that can pull time and GPS coordinates directly from the user's device.
+
+As mentioned within the function documentation, it may also be useful to incorporate recent rainfall information, if that is available and 
+technically feasible. This can act as a replacement for the month variable, or contribute alongside it, when determining road 
+safety in the context of flooding. Information about specific roads that flood often can also be useful to integrate.
+
+Additionally, proximity to river (such as a road traveling alongside it), as opposed to just intersection, should be explored
+for path weighting.
