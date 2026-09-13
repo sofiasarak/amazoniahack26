@@ -1,5 +1,7 @@
 # AmazoniaHack 4.0 – Sofia Sarak
 
+![](images/amazoniahack.png)
+
 The following repository houses my submission to the AmazionaHack 4.0 hackathon, which took place September 12-13, 2026. I opted to address Challenge 3, which is described as follows in the hackathon's documentation:
 
 *The challenge is to explore approaches for offline routing across the Amazon's unofficial road network that does not exist in Google Maps or official cartography, so agents can reach inspection sites without connectivity. This is deliberately exploratory: approaches that improve the map rather than the routing are equally welcome. One route to this, among others, is to build on satellite imagery together with the unofficial road network that PrevisIA derives, provided as a sample of identified road stretches.*
@@ -24,8 +26,10 @@ I addressed the issue of routing during rainy seasons. In doing so, I developed 
 │   │   └── PA_1505502_RIOS_SIMPLES.shx
 ├── README.md
 └── scratch # exploratory files
-    ├── exploration.ipynb
-    └── river_geoms.ipynb
+│   ├── exploration.ipynb
+│   └── river_geoms.ipynb
+└── images # amazoniahack image for README
+└── requirements.txt # Python env specs
 ```
 ## Use Guidelines
 
