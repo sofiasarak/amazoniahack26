@@ -30,6 +30,7 @@ I addressed the issue of routing during rainy seasons. In doing so, I developed 
 │   └── river_geoms.ipynb
 └── images # amazoniahack image for README
 └── requirements.txt # Python env specs
+└── submission.txt # submission summary with project feasibility, potential for impact, etc.
 ```
 ## Use Guidelines
 
