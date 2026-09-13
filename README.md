@@ -33,7 +33,7 @@ I addressed the issue of routing during rainy seasons. In doing so, I developed 
 ```
 ## Use Guidelines
 
-The Jupyter notebook `avoid_rivers_func.ipynb` contains all the necessary code for my submission. Python environment dependencies are attached in the `` file. Necessary data is listed in the repository structure, but not provided in this repository due to file size.
+The Jupyter notebook `avoid_rivers_func.ipynb` contains all the necessary code for my submission. Python environment dependencies are attached in the `requirements.txt` file. Necessary data is listed in the repository structure, but not provided in this repository due to file size.
 
 ## Data Sources
 - **Road geometries:** OpenStreetMap (OSM) and PrevisIA, provided by AmazoniaHack 4.0 team
